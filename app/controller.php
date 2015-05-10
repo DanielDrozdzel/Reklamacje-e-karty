@@ -191,7 +191,6 @@ class controller {
 		return $this->wynikModel;
 	}
 
-	
 /**
 * Ustawia wynik działania warstwy widoku w składowej $wynikWidok.
 * Wywoływana w obiektach klasy warstwy widoku zapisuje wynik iego działania w składowej $wynikModel.
