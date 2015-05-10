@@ -1,0 +1,141 @@
+<style>
+		body{
+		font-family: ageone, Century Gothic, CenturyGothic;
+		}
+		
+		@font-face {
+		font-family: 'ageone';
+		src: url('utils/Ageone.ttf') format('truetype');
+		}
+		
+		#login{
+		font-family: ageone, Century Gothic, CenturyGothic;
+		position: relative;
+		top: 40px;
+		width: 250px;
+		margin: 0 auto;
+		height: 150px;
+		border: 1px solid #99FFFF ;
+		text-align: center;
+		padding: 5px;
+		background: white;
+		}
+		
+		#login p:last-child{
+			color: red;
+		}
+		
+		#kontener{
+		font-family: ageone, Century Gothic, CenturyGothic;
+		margin: 4%;
+		width: 100%;
+		z-index: 1;
+		}
+		
+		#naglowek {
+		position: absolute;
+		top: 0px;
+		height: 80px;
+		width: 92%;
+		font-size: 18pt;
+		font-weight: 400;
+		letter-spacing: 4px;
+		border: 1px solid #99FFFF ;
+		text-align: center;
+		}
+		
+		#logout {
+		position: absolute;
+		font-family: ageone, Century Gothic, CenturyGothic;
+		top: 10px;
+		right: 50px;
+		font-size: 14pt;
+		border: 2pt solid #99FFFF;
+		width: 70px;
+		height: 30px;
+		z-index: 2;
+		padding: 5px;
+		text-align: center;
+		cursor: pointer;
+		}
+		
+		#logout:hover {
+		border: 2pt solid red;
+		}
+		
+		#formularz {
+		position: absolute;
+		top: 80px;
+		width: 92%;
+		height: 250px;
+		font-size: 12pt;
+		font-family: ageone, CenturyGothic, Century Gothic;
+		border: 1px solid #99FFFF;
+		border-bottom-width: 5px;
+		border-top: none;
+		}
+		
+		#formularz p{
+		padding: 10px;
+		margin: auto 0px;
+		text-align: center;
+		border: 1px solid #99FFFF;
+		}
+		
+		#jednostkowe p{	
+		display: inline-block;
+		}
+		
+		#formularz p textarea {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+		#wyniki {
+		width: 92%;
+		position: absolute;
+		top: 330px;
+		border: 1pt solid  #99FFFF;
+		}
+		
+		
+		.hrefs{
+		text-decoration: none;
+		color: black;
+		}
+
+		.rows:hover{
+		
+		text-decoration: underline;
+		}
+		
+		.column{
+		font-weight: 700;
+		color: red;
+		border-bottom: 1pt solid red;
+		}
+		
+		#popraw {
+		width: 250px;
+		border: 1pt solid #99FFFF;
+		margin: 0 auto;
+		font-size: 14pt;
+		text-align:right;
+		}
+		
+		
+		table {
+		border-spacing: 10px;
+		}
+
+		.error {
+		margin-top: 20px;
+		font-size: 16pt;
+		text-align: center;
+		color: red;
+		}
+		
+		
+		
+</style>

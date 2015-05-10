@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<project name="reklamacje" default="instalacja">
+	<target name="instalacja" description="instalacja pakietu reklamacje">
+	<mkdir dir="./reklamacje" />
+		<copy todir="./reklamacje">
+			<fileset dir="." excludes="./docs/*.*" />
+		</copy>
+		
+		<echo> Zainstalowano pakiet Reklamacje </echo>
+	</target>
+	
+	<target name="test" description="testy pakietu reklamacje" depends="instalacja">
+		<phpunit>
+			<formatter type="plain" usefile="false" />
+			<batchtest classpath="reklamacje/tests">
+				<fileset dir="./reklamacje/tests">
+					<include name="**/*.php" />
+				</fileset>
+			</batchtest>
+		</phpunit>
+		
+		<echo> Testowanie zostalo wykonane </echo>
+	</target>
+		
+	
+	<target name="dokumentacja" description="tworzenie dokumentacji" depends="instalacja" >
+		<mkdir dir="reklamacje/docs" />
+		<exec executable="phpdoc" dir="reklamacje">
+			<arg line="--directory=reklamacje --target=docs --title=reklamacje --template=abstract" />
+		</exec>
+		
+		<echo> Utworzono dokumentacje </echo>
+	</target>	
+
+	
+</project>

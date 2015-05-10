@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<dataset>
+	<table name="reklamacje">
+		<column>id</column>
+		<column>data</column>
+		<column>imie</column>
+		<column>nazwisko</column>
+		<column>karta</column>
+		<column>kwota</column>
+		<column>stan</column>
+		<column>miejsce</column>
+		<column>ekstra</column>
+		<row>
+			<value>1</value>
+			<value>01-05-2015</value>
+			<value>tomek</value>
+			<value>danielewicz</value>
+			<value>00000000001</value>
+			<value>8,00</value>
+			<null />
+			<value>Mps</value>
+			<null />
+		</row>
+		
+	</table>
+</dataset>

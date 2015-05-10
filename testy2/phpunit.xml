@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="bootstrap.php">
+<testsuites>
+    <testsuite name="main">
+      <directory>./reklamacje/app/*test.php</directory>
+    </testsuite>
+	<testsuite name="model">
+      <directory>./app/model/*test.php</directory>
+    </testsuite>
+	<testsuite name="view">
+      <directory>./app/view/*test.php</directory>
+    </testsuite>
+	<testsuite name="error">
+      <directory>./app/error/*.php</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

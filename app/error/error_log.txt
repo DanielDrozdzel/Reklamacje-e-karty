@@ -1,0 +1,288 @@
+2015-04-18T17:25:17+02:00exception 'ZnajdzException' with message 'Poszukiwane reklamacje nie istnieją' in C:\wamp\www\reklamacje\app\model\znajdz.php:44
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(17): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(56): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#5 {main}
+2015-04-18T17:25:46+02:00 -> exception 'ZnajdzException' with message 'Poszukiwane reklamacje nie istnieją' in C:\wamp\www\reklamacje\app\model\znajdz.php:44
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(17): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(56): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#5 {main}
+2015-04-18T17:25:49+02:00 -> exception 'ZnajdzException' with message 'Poszukiwane reklamacje nie istnieją' in C:\wamp\www\reklamacje\app\model\znajdz.php:44
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(17): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(56): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#5 {main}
+2015-04-18T17:29:07+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja  nie istnieją' in C:\wamp\www\reklamacje\app\model\znajdz.php:45
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(17): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(56): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#5 {main}
+2015-04-18T17:33:41+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> ID : 67 <br>DATA : 18-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:51
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(17): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(56): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#5 {main}
+2015-04-18T17:35:39+02:00 -> exception 'app\controller\ConException' with message 'Żądany plik z klasą znajdz nie istnieje' in C:\wamp\www\reklamacje\app\controller.php:52
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#1 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#2 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#3 {main}
+2015-04-18T17:49:56+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> ID : 23 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:51
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(17): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(56): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(65): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(17): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(97): app\controller\controller->__construct()
+#5 {main}
+2015-04-21T21:03:55+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 21-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:51
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(31): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(136): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(151): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(56): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-04-21T22:30:42+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 22-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:51
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(31): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(136): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(151): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(56): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-04-22T20:20:18+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 22-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(133): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(147): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(54): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(207): app\controller\controller->__construct()
+#5 {main}
+2015-04-22T20:20:30+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 22-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(133): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(147): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(54): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(207): app\controller\controller->__construct()
+#5 {main}
+2015-04-22T20:23:16+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 22-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(133): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(147): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(54): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(207): app\controller\controller->__construct()
+#5 {main}
+2015-04-22T20:23:18+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(133): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(147): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(54): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(207): app\controller\controller->__construct()
+#5 {main}
+2015-04-24T21:08:15+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 24-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-24T21:10:30+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 24-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-24T21:10:57+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 24-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T10:54:48+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 32-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:83
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T11:46:26+02:00 -> exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 25 bind or column index out of range' in C:\wamp\www\reklamacje\app\model\zmien.php:43
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\zmien.php(43): PDOStatement->execute(Array)
+#1 C:\wamp\www\reklamacje\app\model\model.php(51): Zmien->go()
+#2 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#3 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('zmien', 'model/zmien.php')
+#4 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#5 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#6 {main}
+2015-04-25T11:46:55+02:00 -> exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 25 bind or column index out of range' in C:\wamp\www\reklamacje\app\model\zmien.php:45
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\zmien.php(45): PDOStatement->execute(Array)
+#1 C:\wamp\www\reklamacje\app\model\model.php(51): Zmien->go()
+#2 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#3 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('zmien', 'model/zmien.php')
+#4 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#5 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#6 {main}
+2015-04-25T11:57:06+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 25-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:84
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T12:00:59+02:00 -> exception 'app\controller\ConException' with message 'Żądany plik z klasą undefined nie istnieje' in C:\wamp\www\reklamacje\app\controller.php:130
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('undefined', 'model/undefined...')
+#1 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#2 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#3 {main}
+2015-04-25T12:01:37+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 25-04-2015 <br>KARTA : 0342 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:82
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T12:04:13+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 25-04-2015 <br>KARTA : Hh <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:82
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T12:34:25+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 2015-04-16 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:82
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T12:37:37+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 13-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:82
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-25T12:38:15+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 30-04-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:82
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(134): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#5 {main}
+2015-04-27T20:58:57+02:00 -> exception 'app\controller\ConException' with message 'Żądany plik z klasą undefined nie istnieje' in C:\wamp\www\reklamacje\app\controller.php:130
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\controller.php(148): app\controller\controller->check('undefined', 'model/undefined...')
+#1 C:\wamp\www\reklamacje\app\controller.php(55): app\controller\controller->getModel()
+#2 C:\wamp\www\reklamacje\app\controller.php(209): app\controller\controller->__construct()
+#3 {main}
+2015-05-09T22:08:58+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 19-06-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:09:20+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 31-05-2015 <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:09:26+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> DATA : 20-06-2015 <br>NAZWISKO : ,l;;lmkm <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:09:38+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> NAZWISKO : Mkm <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:10:43+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> NAZWISKO : M,m <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:12:30+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> NAZWISKO : Aasd <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:12:52+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> NAZWISKO : Mmm <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-09T22:13:09+02:00 -> exception 'ZnajdzException' with message 'Poszukiwana reklamacja, gdzie: <br> NAZWISKO : Mmmk <br>MIEJSCE : Mps <br>nie została odnaleziona.' in C:\wamp\www\reklamacje\app\model\znajdz.php:92
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\model\model.php(51): Znajdz->go()
+#1 C:\wamp\www\reklamacje\app\controller.php(143): app\model\Model->__construct(Object(app\controller\controller))
+#2 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', 'model/znajdz.ph...')
+#3 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#4 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#5 {main}
+2015-05-10T16:12:56+02:00 -> exception 'app\controller\ConException' with message 'Żądany plik z klasą znajdz nie istnieje' in C:\wamp\www\reklamacje\app\controller.php:139
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', '/model/znajdz.p...')
+#1 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#2 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#3 {main}
+2015-05-10T16:12:58+02:00 -> exception 'app\controller\ConException' with message 'Żądany plik z klasą znajdz nie istnieje' in C:\wamp\www\reklamacje\app\controller.php:139
+Stack trace:
+#0 C:\wamp\www\reklamacje\app\controller.php(157): app\controller\controller->check('znajdz', '/model/znajdz.p...')
+#1 C:\wamp\www\reklamacje\app\controller.php(58): app\controller\controller->getModel()
+#2 C:\wamp\www\reklamacje\app\controller.php(218): app\controller\controller->__construct()
+#3 {main}
