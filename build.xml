@@ -13,9 +13,9 @@
 	<target name="test" description="testy pakietu reklamacje" depends="instalacja">
 		<phpunit>
 			<formatter type="plain" usefile="false" />
-			<batchtest classpath="reklamacje/tests">
-				<fileset dir="./reklamacje/tests">
-					<include name="**/*.php" />
+			<batchtest classpath="./tests">
+				<fileset dir="./tests">
+					<include name="**/*test.php" />
 				</fileset>
 			</batchtest>
 		</phpunit>
@@ -25,9 +25,9 @@
 		
 	
 	<target name="dokumentacja" description="tworzenie dokumentacji" depends="instalacja" >
-		<mkdir dir="reklamacje/docs" />
+		<mkdir dir="./docs" />
 		<exec executable="phpdoc" dir="reklamacje">
-			<arg line="--directory=reklamacje --target=docs --title=reklamacje --template=abstract" />
+			<arg line="--directory=reklamacje --target=docs --title='reklamacje' --template=abstract" />
 		</exec>
 		
 		<echo> Utworzono dokumentacje </echo>
