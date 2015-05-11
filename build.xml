@@ -1,20 +1,23 @@
 <?xml version="1.0"?>
 
 <project name="reklamacje" default="instalacja">
-	<target name="instalacja" description="instalacja pakietu reklamacje">
-	<mkdir dir="./reklamacje" />
-		<copy todir="./reklamacje">
+	<target name="setPath">
+		<input message="Ustaw folder instalacji" propertyName="path" defaultValue="./reklamacje" promptChar=" >" />
+	</target>
+	
+	<target name="instalacja" description="instalacja pakietu reklamacje" depends="setPath">
+	<mkdir dir="${path}" />
+		<copy todir="${path}">
 			<fileset dir="." excludes="./docs/*.*" />
 		</copy>
 		
 		<echo> Zainstalowano pakiet Reklamacje </echo>
 	</target>
-	
 	<target name="test" description="testy pakietu reklamacje" depends="instalacja">
 		<phpunit>
-			<formatter type="plain" usefile="false" />
-			<batchtest classpath="./tests">
-				<fileset dir="./tests">
+			<formatter type="xml" todir="${path}/tests" />
+			<batchtest>
+				<fileset dir="${path}/tests">
 					<include name="**/*test.php" />
 				</fileset>
 			</batchtest>
@@ -22,11 +25,9 @@
 		
 		<echo> Testowanie zostalo wykonane </echo>
 	</target>
-		
-	
 	<target name="dokumentacja" description="tworzenie dokumentacji" depends="instalacja" >
-		<mkdir dir="./docs" />
-		<exec executable="phpdoc" dir="reklamacje">
+		<mkdir dir="${path}/docs" />
+		<exec executable="phpdoc" dir="${path}">
 			<arg line="--directory=reklamacje --target=docs --title='reklamacje' --template=abstract" />
 		</exec>
 		
